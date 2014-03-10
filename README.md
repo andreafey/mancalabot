@@ -5,10 +5,12 @@ while having fun writing a simple Scala program.
 To play:
 
 You'll first need a player ID from the Mancala web service. 
+
      Visit $baseURL
      Copy ID from one player and click "Start Random Player" for the other
 
  Fire up sbt and run the program
+ 
      mancala [master #%] $ sbt
      [info] Set current project to mancala (in build file:/Users/andrea/workspace-scala/mancala/)
      > run $baseURL ZOQJCKIG
