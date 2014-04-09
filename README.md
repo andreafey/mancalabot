@@ -1,8 +1,14 @@
-Quick and dirty Mancala bot with fairly simple strategy which can readily beat a player who
-plays random moves only. Wrote for Hacker School to play against Robert Lord's Mancala web service
+# Mancala Bot
+
+This is a quick and dirty Mancala bot with a very simple strategy which can readily beat a player who
+plays random moves only. I wrote it at Hacker School to play against Robert Lord's Mancala web service
 while having fun writing a simple Scala program.
 
-To play:
+## Note
+
+There is some code in here which flips the board around between turns, but Robert's mancala service handles that, and it should be removed. 
+
+## Usage
 
 You'll first need a player ID from the Mancala web service. 
 
